@@ -1,0 +1,222 @@
+body {
+	font: 16px Arial, Helvetica, sans-serif;
+	color: #999;
+	margin: 0;
+	padding: 0;
+	background: #FFF;
+}
+
+h1 {
+	font: bold 25px Georgia, "Times New Roman", Times, serif;
+	color: #333;
+	margin: 0 0 0 10px;
+}
+
+h2 {
+	color: #FF0000;
+	font: normal 16px Arial, Helvetica, sans-serif;
+	margin: 5px 0 3px 0;
+}
+
+p {
+	margin: 10px 0 35px 0;
+	padding: 0;
+}
+
+blockquote {
+	font-style: italic;	
+}
+
+#header-wrap {
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-top:solid 15px #CCCCCC ;
+	text-align:center;
+}
+
+#header-container {
+	background-color:#FFFFFF;
+}
+
+#header {
+	margin: 0 auto;
+}
+
+#header h1 {
+	color: #FF0000;
+	margin: 0;
+	top: 5px;
+	font: normal 130px  Arial, Helvetica, sans-serif;
+	}
+
+#header h5 {
+	font: normal 16px Arial, Helvetica, sans-serif;
+	}
+
+#header h1 em{
+	color: #90b874;
+	font-size: small;
+	display: block;
+}
+
+#header ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 35px;
+	right: 0;
+}
+
+#header ul li {
+	float: left;
+	margin-right: 35px;
+}
+
+#header ul li a{
+	color: #666;
+	font: bold 16px Georgia, "Times New Roman", Times, serif;
+	margin-right: 5px;
+	text-decoration: none;
+}
+
+#header ul li a:hover {
+	color: #beffbf;	
+}
+
+.pipe-separater {
+	color:#FF0000;
+}
+
+
+
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	font-size: 25px;
+	overflow: auto;
+	padding:150px 25px 25px 0;
+}
+
+#content {
+	float: left;
+	width: 940px;
+	margin:0;
+	padding:0;
+}
+
+section.portfolio-container {
+	margin-top:45px;
+	display:block;
+
+}
+
+
+section.portfolio-holder-left {
+/*	border:solid 4px #666666;*/	
+	width:280px;
+	display:block;
+	float:left;
+	font: normal 16px Arial, Helvetica, sans-serif;
+}
+
+
+section.portfolio-holder-middle {
+	/*border:solid 4px #666666;*/
+	width:280px;
+	display:block;
+	float:left;
+	margin-left:50px;
+	font: normal 16px Arial, Helvetica, sans-serif;
+}
+
+
+section.portfolio-holder-right {
+/*	border:solid 4px #666666;*/	
+	width:280px;
+	display:block;
+	float:right;
+	font: normal 16px Arial, Helvetica, sans-serif;
+}
+
+
+header.portfolio-piece {
+/*	border:solid 1px #CCCCCC ; 
+*/	width:280px;
+	display:block;
+	margin:20px auto;
+	padding: 0;
+}
+
+section.supporting-info {
+	font:normal 16px Arial, Helvetica, sans-serif;
+	color:#999;
+
+
+
+}
+
+p {
+color: #FF0000;
+
+}
+
+
+
+.story{
+color: #999;
+font: normal 16px Arial, Helvetica, sans-serif;
+margin-left:250px;
+}
+
+
+
+#sidebar {
+	float: right;
+	width: 275px;
+	margin-top: 10px;
+}
+
+#footer-wrap {
+/*	position: fixed;
+*/	bottom: 0;
+	left: 0;
+	width: 100%;	
+}
+
+#footer-container {
+	height: 40px;
+	background: url(file:///JOYS%20TOY/Users/JoyDey/Documents/portfolio/Portfolio_Pieces/joydey.com/redesign/code_experimenting/fixed-header-footer/final/images/footer-bg.png) repeat-x left bottom;
+}
+
+#footer {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	font: normal 14px Arial, Helvetica, sans-serif;
+	text-align:center;
+
+}
+
+a:link {
+text-decoration:none;
+color:#999;
+}    /* unvisited link */
+
+a:visited {
+text-decoration:none;
+color:#999;
+} /* visited link */
+
+a:hover {
+text-decoration: underline;
+color:#999;
+}   /* mouse over link */
+
+a:active {
+text-decoration:none;
+color:#999;
+}  /* selected link */
+
